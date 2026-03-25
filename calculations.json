@@ -1,0 +1,28 @@
+[
+  {
+    "shape": "circle",
+    "radius": 7.0,
+    "area": 153.93804002589985,
+    "perimeter": 43.982297150257104
+  },
+  {
+    "shape": "rectangle",
+    "length": 63.0,
+    "width": 99.0,
+    "area": 6237.0,
+    "perimeter": 324.0
+  },
+  {
+    "shape": "square",
+    "side_length": 53.0,
+    "area": 2809.0,
+    "perimeter": 212.0
+  },
+  {
+    "shape": "triangle",
+    "base": 67.0,
+    "height": 67.0,
+    "area": 2244.5,
+    "perimeter": 228.75230867899737
+  }
+]
