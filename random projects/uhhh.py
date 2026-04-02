@@ -3,7 +3,7 @@ import math
 import random
 
 # --- CONFIGURATION SETTINGS ---
-POPUP_COUNT = 200       # How many pop-ups to spawn
+POPUP_COUNT = 20       # How many pop-ups to spawn
 POPUP_WIDTH = 120     # Width of each pop-up
 POPUP_HEIGHT = 120     # Height of each pop-up
 ROTATION_SPEED = 10   # Degrees per frame (higher = faster)
@@ -27,7 +27,7 @@ def start_multi_prank():
         
         # Give each one a random color for extra chaos
         color = random.choice(["red", "blue", "green", "purple", "orange", "black"])
-        label = tk.Label(win, text="Bruh", fg="white", bg=color, font=("Arial", 10, "bold"))
+        label = tk.Label(win, text="GET COOKED", fg="white", bg=color, font=("Arial", 10, "bold"))
         label.pack(expand=True, fill="both")
         
         # Block the close button (Alt+F4 still works on the active window)
