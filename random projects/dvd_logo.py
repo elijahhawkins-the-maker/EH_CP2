@@ -14,7 +14,7 @@ class BouncingWindow:
         
         # Initial position and velocity (pixels per frame)
         self.x, self.y = 100, 100
-        self.dx, self.dy = 5, 5
+        self.dx, self.dy = 10, 10
         
         # Basic UI
         label = tk.Label(self.root, text="DVD", font=("Arial", 14))
