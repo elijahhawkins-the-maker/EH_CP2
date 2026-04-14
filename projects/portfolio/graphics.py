@@ -5,7 +5,11 @@ sys.path.insert(0, "/home/elijahhawkins/EH_CP1-1/projects/fractal_gen")
 
 import tkinter as tk
 
+from fractal_gen import *
 
+from geo_calc import *
+
+from word_counter import *
 
 import DND
 
