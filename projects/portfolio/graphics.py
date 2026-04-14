@@ -7,11 +7,11 @@ import tkinter as tk
 
 from fractal_gen import *
 
-from geo_calc import *
+from "geo_calc/geo_calc" import *
 
 from word_counter import *
 
-import DND
+#import DND
 
 class GUI():
     def __init__(self):
